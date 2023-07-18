@@ -7,4 +7,10 @@ def main(a,b):
     Returns:
         True or False
     """
-    return
+    son=len(a)
+    son1=len(b)
+    if (son==son1):
+        return True
+    else:
+        return False
+print(main("salom","salom"))
