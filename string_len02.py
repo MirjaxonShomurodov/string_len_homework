@@ -6,4 +6,9 @@ def main(a):
     Returns:
         True or False
     """
-    return
+    son=len(a)
+    if son%2==0:
+        return True
+    else:
+        return False
+print(main("Mirjaxon"))
