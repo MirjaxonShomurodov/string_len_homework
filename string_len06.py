@@ -7,4 +7,11 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    return
+    x1=len(s1)
+    x2=len(s2)
+    if x1<x2:
+        return x1
+    else:
+        (x2<x1)
+        return x2
+print(main("salomm","aoos"))
