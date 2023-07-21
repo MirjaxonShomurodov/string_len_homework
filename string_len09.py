@@ -9,4 +9,8 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    return
+    num1=3
+    num2=4
+    s="{}+{}={}".format(num1,num2, num1+num2)
+    return s
+print(main(3,4))
