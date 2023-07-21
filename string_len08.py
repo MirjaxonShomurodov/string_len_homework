@@ -8,4 +8,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a="cood"
+    return (a[1:3])
+print(main("cood"))
